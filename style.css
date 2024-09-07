@@ -1,0 +1,73 @@
+/* poppins font style for all */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #3A3A3A;
+}
+/* remove browser default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav  style */
+.nav_tittle{
+    /* color: #3A3A3A; */
+    font-size: 26px;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 87px;
+    margin-right: 90px;
+}
+nav ul{
+    display: flex;
+    font-weight: 600;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+/* hero section style */
+.hero_img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    margin-right: 190px;
+    margin-bottom: 75px;
+}
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.hero_content{
+    margin-left: 120px;
+}
+.hero_content h1{
+    font-size: 39px;
+    font-weight: 800;
+}
+.hero_content p{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.preebook_button{
+    background-color: #E02C6D;
+    color: white;
+    margin-top: 16px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-weight: 700;
+}
+#arrow{
+    size: 8px;
+    color: white;
+}
+
+
